@@ -82,7 +82,7 @@
 *   **Steps Taken:** Locate the `sendTel` function within `metamask.php`. Inspect the variable assignment for `$token`, which contains the unique Telegram Bot API credential used to authenticate requests to the Telegram server.
 *   **Evidence:**
     ![Q8 - Telegram Bot Token in metamask.php](images/q8.png)
-*   **Flag:** `5457463144:AAG8t4k7e2ew3tTi0IBShcWbSia0Irvxm10`
+*   **Flag:** `5457463144:AAG8t4k7e2ew***************************`
 
 ---
 
