@@ -1,6 +1,14 @@
 # CyberDefenders Lab: OpenWire Writeup
 
-**Category:** Network Forensics | **Difficulty:** Medium | **Tactics:** Initial Access, Execution, Command and Control
+**Category:** Network Forensics | **Difficulty:** Medium
+**Tactics:** Initial Access, Execution, Command and Control
+**Tools:** Wireshark, Zui, Network Miner
+
+**Description:** 
+This lab focuses on investigating a remote code execution incident stemming from a Java deserialization vulnerability within an Apache ActiveMQ environment.
+
+**Scenario Summary:** 
+Stepping into the role of a Tier-2 SOC Analyst, you are tasked with investigating a public-facing server that triggered alerts after communicating with multiple suspicious external IP addresses. Following standard incident response procedures, the server has been isolated to contain the threat and prevent data exfiltration. Your objective is to thoroughly analyze the provided network packet capture (PCAP) to uncover the attacker's footprint, trace the exploitation vectors, and identify the full scope of the malicious activity.
 
 ---
 
