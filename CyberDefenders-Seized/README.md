@@ -96,7 +96,7 @@ Using Volatility, utilize your memory analysis skills as a security blue team an
     *   **Root cause:** SSH public-key authentication bypasses password checks entirely — as long as the attacker holds the matching private key, they can SSH in regardless of password changes.
     *   Also recovered a Base64 string: `c2hrQ1RGe3JjLmwwYzRsXzFzX2Z1bm55X2JlMjQ3MmNmYWVlZDQ2N2VjOWNhYjViNWEzOGU1ZmEwfQo=`, decoded via CyberChef.
 *   **Evidence:**
-    ![Q7 - strings.txt grep for echo Command](images/q7.png)
+    ![Q7 - strings.txt grep for echo Command](images/q7_1.png)
     ![Q7 - CyberChef Decoded Flag](images/q7_2.png)
 *   **Flag:** `shkCTF{rc.l0c4l_1s_funny_be2472cfaeed467ec9cab5b5a38e5fa0}`
 
