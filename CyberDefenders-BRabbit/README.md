@@ -113,6 +113,8 @@ You are an investigator assigned to assist Drumbo, a company that recently fell 
 *   **Steps Taken:**
     *   After encrypting user data, BadRabbit also tampers with the MBR and low-level boot components, rendering the operating system unable to reload after reboot (unbootable).
     *   This firmware/boot-component sabotage behavior maps to the **Impact** tactic (TA0040), under the technique **Firmware Corruption**.
+*   **Evidence:**
+    ![Q11 - MITRE ATT&CK Impact Mapping for Firmware Corruption](images/q11.png)
 *   **Flag:** `T1495`
 
 ---
